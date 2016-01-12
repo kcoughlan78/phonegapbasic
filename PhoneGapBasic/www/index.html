@@ -27,16 +27,92 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="js/sportyipsum.js"></script>
+        <title>Sporty Ipsum</title>
     </head>
     <body>
         <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+        	<div data-role="page" id="Home">
+        	<header data-role="header">
+            <h1 id="sportyheader">For the Sporty but Nerdy</h1>
+            </header>
+            <nav data-role="navbar">
+            <ul>
+            <li><a href="#Home" class="ui-btn-active">Original</a></li>
+            <li><a href="#US">US Sports</a></li>
+            <li><a href="#About">About</a></li>
+            </ul>
+            </nav>
+            <div>
+            	<section id="sportybuttons">
+					<button id="more" class="ipsumbtn"><img src="img/ipsumore.png" width="41" height="41" title="add line" alt="add line" /></button>
+					<button id="less" class="ipsumbtn"><img src="img/ipsumless.png" width="41" height="41" title="remove line" alt="remove line" /></button>
+					<button id="para" class="ipsumbtn"><img src="img/ipsumpara.png" width="41" height="41" title="add paragraph" alt="add paragraph" /></button>
+					<button id="clear" class="ipsumbtn"><img src="img/ipsumdelete.png" width="41" height="41" title="delete all" alt="delete all" /></button>
+				</section>
+				<p id="ipsumGuide"></p>
+				<article id="outeroutput">
+					<p id="output"></p>
+				</article>
+				<p id="info"></p>
+            <footer data-role="footer">
+            	<h4>Designed by Hut41 - Copyright &copy; Kieran Coughlan 2013</h4>
+            </footer>
             </div>
+            </div>
+<!-- US Sports Ipsum -->  
+            <div data-role="page" id="US">
+        	<header data-role="header">
+            <h1 id="USsportyheader">For US Sporty but Nerdy</h1>
+            </header>
+            <nav data-role="navbar">
+            <ul>
+            <li><a href="#Home">Original</a></li>
+            <li><a href="#US" class="ui-btn-active">US Sports</a></li>
+            <li><a href="#About">About</a></li>
+            </ul>
+            </nav>
+            <div>
+            	<section id="USsportybuttons">
+					<button id="USmore" class="ipsumbtn"><img src="img/ipsumore.png" width="41" height="41" title="add line" alt="add line" /></button>
+					<button id="USless" class="ipsumbtn"><img src="img/ipsumless.png" width="41" height="41" title="remove line" alt="remove line" /></button>
+					<button id="USpara" class="ipsumbtn"><img src="img/ipsumpara.png" width="41" height="41" title="add paragraph" alt="add paragraph" /></button>
+					<button id="USclear" class="ipsumbtn"><img src="img/ipsumdelete.png" width="41" height="41" title="delete all" alt="delete all" /></button>
+				</section>
+				<p id="USipsumGuide"></p>
+				<article id="USouteroutput">
+					<p id="USoutput"></p>
+				</article>
+				<p id="USinfo"></p>
+            <footer data-role="footer">
+            		<h4>Designed by Hut41 - Copyright &copy; Kieran Coughlan 2013</h4>
+            </footer>
+            </div>
+            </div>
+<!-- About Sporty Ipsum -->  
+            <div data-role="page" id="About">
+        	<header data-role="header">
+            <h1 id="Aboutsportyheader">About Sporty Ipsum</h1>
+            </header>
+            <nav data-role="navbar">
+            <ul>
+            <li><a href="#Home">Original</a></li>
+            <li><a href="#US">US Sports</a></li>
+            <li><a href="#About" class="ui-btn-active">About</a></li>
+            </ul>
+            </nav>
+            <div>
+            	<p>Finally an Ipsum for the Sporty</p>
+            <footer data-role="footer">
+            		<h4>Designed by Hut41 - Copyright &copy; Kieran Coughlan 2013</h4>
+            </footer>
+            </div>  
+            </div>          
         </div>
+      
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

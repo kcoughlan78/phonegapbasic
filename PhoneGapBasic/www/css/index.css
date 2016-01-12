@@ -113,3 +113,72 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+/* Sporty Ipsum Styling*/
+
+#sportyheader {
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 20px;	
+}
+
+#sportyipsum {
+	margin-left: 50px;
+	color: white;
+	padding: 10px;
+	background-color: #96B267;
+	border-radius: 15px;
+	moz-border-radius: 15px;
+	ms-border-radius: 15px;
+}
+
+#sportybuttons {
+	margin-left: 290px;
+}
+
+.ipsumbtn {
+	background:none;
+	border: 0;
+	outline:none;
+	box-shadow:none;
+	text-decoration:none;
+}
+
+.ipsumbtn:hover {
+	box-shadow:none;
+	text-decoration:none;
+}
+
+.ipsumbtn:active {
+	box-shadow:none;
+	text-decoration:none;
+}
+
+#ipsumGuide {
+	margin-left: 270px;
+	padding: 10px;
+	color: #96B267;
+	max-width: 520px;
+}
+
+#outeroutput {
+	margin-left: 170px;
+	height:auto;
+	min-height: 410px;
+	width: 850px;
+}
+	
+#output {
+	color: #B23174;	
+	height:auto;
+	min-height: 410px;
+	width: 850px;
+	border: 5px #96B267 solid;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	 user-select: element;
+	-ms-user-select: element;
+	-moz-user-select: element;
+	-webkit-user-select: text;
+}

@@ -74,23 +74,11 @@ h1 {
 /* Sporty Ipsum Styling*/
 
 #sportyheader {
-	margin-top: 10px;
-	margin-left: 50px;
+	margin: auto;
 	padding: 20px;	
 }
 
-#sportyipsum {
-	margin-left: 50px;
-	color: white;
-	padding: 10px;
-	background-color: #96B267;
-	border-radius: 15px;
-	moz-border-radius: 15px;
-	ms-border-radius: 15px;
-}
-
 #sportybuttons {
-	margin-left: 20px;
 	height: 60px;
 }
 
@@ -116,24 +104,25 @@ h1 {
 }
 
 #ipsumGuide {
-	margin-left: 270px;
+	margin-left: 20px;
 	padding: 10px;
 	color: #96B267;
-	max-width: 520px;
+	max-width: 220px;
 }
 
 #outeroutput {
-	margin-left: 170px;
+	margin: 0% 5% 0% 4%;
 	height:auto;
-	min-height: 410px;
-	width: 850px;
+	min-height: 200px;
+	width: 91%;
 }
 	
 #output {
+	font-size: 0.8em;
 	color: #B23174;	
 	height:auto;
-	min-height: 410px;
-	width: 850px;
+	min-height: 200px;
+	width: 100%;
 	border: 5px #96B267 solid;
 	border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -142,4 +131,8 @@ h1 {
 	-ms-user-select: element;
 	-moz-user-select: element;
 	-webkit-user-select: text;
+}
+
+footer {
+	font-size: 0.6em;
 }

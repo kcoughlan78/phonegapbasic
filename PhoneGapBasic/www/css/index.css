@@ -78,7 +78,7 @@ h1 {
 	padding: 20px;	
 }
 
-#sportybuttons {
+.sportybuttons {
 	height: 60px;
 }
 
@@ -103,21 +103,22 @@ h1 {
 	text-decoration:none;
 }
 
-#ipsumGuide {
+#ipsumGuide, #USipsumGuide {
+	font-size: 0.7em;
 	margin-left: 20px;
 	padding: 10px;
 	color: #96B267;
-	max-width: 220px;
+	max-width: 90%;
 }
 
-#outeroutput {
+#outeroutput, #USouteroutput {
 	margin: 0% 5% 0% 4%;
 	height:auto;
 	min-height: 200px;
 	width: 91%;
 }
 	
-#output {
+#output, #USoutput {
 	font-size: 0.8em;
 	color: #B23174;	
 	height:auto;

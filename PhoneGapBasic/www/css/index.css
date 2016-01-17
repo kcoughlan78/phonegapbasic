@@ -73,7 +73,7 @@ h1 {
 
 /* Sporty Ipsum Styling*/
 
-#sportyheader {
+#sportyheader, #USsportyheader {
 	margin: auto;
 	padding: 20px;	
 }
@@ -135,5 +135,5 @@ h1 {
 }
 
 footer {
-	font-size: 0.6em;
+	font-size: 0.5em;
 }

@@ -51,7 +51,7 @@ button2.addEventListener("click", button2Handler, false);
 var button3 = document.getElementById("USpara");
 button3.style.cursor = "pointer";
 button3.addEventListener("click", button3Handler, false);
-var button4 = document.getElementById("clear");
+var button4 = document.getElementById("USclear");
 button4.style.cursor = "pointer";
 button4.addEventListener("click", button4Handler, false);
 
